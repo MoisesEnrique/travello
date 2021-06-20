@@ -7,4 +7,4 @@ from django.http import HttpResponse
 
 # Creamos la funcion home, para que funcione con la creada en urls.py.
 def home(request):   #recibira la solicitud del cliente
-    return render(request, 'home.html')
+    return render(request, 'home.html',{'name':'Ricardo'})
