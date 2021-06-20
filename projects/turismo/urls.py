@@ -18,6 +18,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('', include('calc.urls')),     #incluimos el archivo calc/urls.py 
+    path('', include('travello.urls')),     #incluimos el archivo calc/urls.py 
     path('admin/', admin.site.urls),
 ]
