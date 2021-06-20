@@ -20,14 +20,14 @@ def index(request):   #recibira la solicitud del cliente
     dest2.desc = "La ciudad Blanca"
     dest2.img = 'destination_2.jpg'
     dest2.price = 650
-    dest1.offer = True
+    dest2.offer = True
 
     dest3 = Destination()
     dest3.name = 'Puno'
     dest3.desc = "Capital Folklorica del Perú"
     dest3.img = 'destination_3.jpg'
     dest3.price = 600
-    dest1.offer = False
+    dest3.offer = False
 
     #creamos una lista de destinos
     dests = [dest1, dest2, dest3]
