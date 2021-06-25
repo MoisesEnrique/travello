@@ -132,3 +132,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#especificamos la ruta/url que se va usar para las vistas
+MEDIA_URL = '/media/'
+
+#Especificamos la carpeta para los archivos multimedia
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
